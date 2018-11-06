@@ -12,4 +12,7 @@ if __name__ == '__main__':
     with open('/gruntdata/datacube/test.txt') as f:
         print(f.read())
         
+    workspace = '/gruntdata/datacube/test/80/pnasnet_large/sample'
+    os.chdir(workspace)
+    os.system('python alps_job_wrapper.py')
     sys.exit(0)
