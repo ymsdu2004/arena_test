@@ -19,6 +19,8 @@ if __name__ == '__main__':
     #with open('/gruntdata/datacube/test.txt') as f:
     #    print(f.read())
     
+    print('start to run job...')
+    
     args = parse_arguments()
     project_dir = args.project_dir
     job_args = args.job_args or ''
