@@ -8,5 +8,8 @@ if __name__ == '__main__':
         sys.stderr.write("\nvalidation at step 100\n")
         print('hello')
         time.sleep(10)
-
+        
+    with open('/gruntdata/datacube/test.txt') as f:
+        print(f.read())
+        
     sys.exit(0)
