@@ -27,5 +27,5 @@ if __name__ == '__main__':
     os.mkdir(workspace)
     os.system('cp -r %s/* %s' % (project_dir, workspace))
     os.chdir(workspace)
-    os.system('python alps_job_wrapper.py %s' job_args)
+    os.system('python alps_job_wrapper.py %s' % job_args)
     sys.exit(0)
